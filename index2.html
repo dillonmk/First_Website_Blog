@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<!--
+On this page, you must include
+-Nav bar linking all 4 pages
+-HMTL form with minimum of:
+    -1 fieldset
+    -3 inputs
+        -2text
+        -1checkbox
+    -1 text area
+    -appropriate labels for the above
+    -1 Button
+
+-->
+
+<head>
+    <title>My Cat Blog</title>
+    <!--*********** ADD A CSS LINK************-->
+    <link rel = "stylesheet" type = "text/css" href="layout_2.css">
+</head>
+
+<img src="images/catBack3.png" id="backgroundImage">
+
+<body>
+    <div id="title_bar">
+        <div class="image-cropper">
+            <a href="index_home.html" ><img src="images/home_button.png" class="rounded" /></a>
+        </div>
+        <h3>Dillon's Cat Blog</h3>
+    </div>
+    <div id="navLinks">
+        <a href="index_home.html">Home</a>
+        <a href="index2.html">Tell Me About Your Cats</a>
+        <a href="index3.html">Useful Links</a>
+        <a href="index4.html">Gallery</a>
+    </div>
+    
+
+    <h1>Tell me about your cats or future cats.</h1>
+    <form id="formField">
+        <label for="text1">What kinds of breeds do you have?</label>
+        <input type="text" id="text1">
+
+        <label for="text2">How many cats do you have?</label>
+        <input type="text" id="text2">
+
+        <label for="check">Check this if you like cats</label>
+        <input type="checkbox" id="check">
+
+        <label for="description">Tell me what you love about your cats:</label>
+        <textarea id="description"></textarea>
+
+        <div>
+            <p>Where do you think people should adopt from? (Choose one)</p>
+
+            <div> 
+                <label id="shelter">Shelter</label>
+                <input type="radio" id="shelter">
+                
+                <label id="breeder">Breeder</label>
+                <input type="radio" id="breeder">
+
+                <label id="stray">Stray Cat</label>
+                <input type="radio" id="stray">
+                
+            </div>
+
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>

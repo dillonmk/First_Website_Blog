@@ -1,0 +1,61 @@
+
+
+body {
+    margin-top: 20px;
+    font-family: "Monaco", monospace;
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#backgroundImage{
+    position: absolute;
+    height: auto;
+    z-index: -1;
+    margin-top: -30px;
+}
+
+h3{
+    border:solid salmon;
+    text-align: center;
+    vertical-align: center;
+    padding-left: 25px;
+    font-family: "Papyrus";
+    font-size: 40px;
+}
+
+#title_bar{
+    display:flex;
+    height: 150px;
+    padding:10px;
+    align-items: center;
+    border: solid green;
+    margin-top: 10px;
+}
+
+.navLinks{
+    display:flex;
+    justify-content: space-around;
+    border: solid purple;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border: solid;
+    border-color: red;
+    border-radius: 50%;
+}
+
+.rounded{
+    height:105%;
+    width: auto;
+    position: absolute;
+}
+
+
+
+/* Page Specific */
