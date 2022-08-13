@@ -1,10 +1,14 @@
+a {
+    color: whitesmoke;
+    padding: 5px;
+}
 
 
 body {
     margin-top: 20px;
     font-family: "Monaco", monospace;
-    border: solid blue;
     display: flex;
+    color: whitesmoke;
     flex-direction: column;
     align-items: center;
 }
@@ -13,14 +17,14 @@ body {
     position: absolute;
     height: auto;
     z-index: -1;
-    margin-top: -30px;
+    margin-top: -90px;
 }
 
 h3{
     border:solid salmon;
     text-align: center;
     vertical-align: center;
-    padding-left: 25px;
+    padding: 10px;
     font-family: "Papyrus";
     font-size: 40px;
 }
@@ -30,14 +34,12 @@ h3{
     height: 150px;
     padding:10px;
     align-items: center;
-    border: solid green;
     margin-top: 10px;
 }
 
 .navLinks{
     display:flex;
     justify-content: space-around;
-    border: solid purple;
 }
 
 .image-cropper {
@@ -46,16 +48,19 @@ h3{
     position: relative;
     overflow: hidden;
     border: solid;
-    border-color: red;
+    border-color: #136174;
     border-radius: 50%;
+    margin-right: 20px;
 }
 
 .rounded{
-    height:105%;
+    height:110%;
     width: auto;
     position: absolute;
+    margin-left: -5px;
 }
 
 
 
 /* Page Specific */
+

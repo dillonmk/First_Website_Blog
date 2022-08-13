@@ -37,21 +37,32 @@ On this page, you must include
     </div>
     
 
-    <h1>Tell me about your cats or future cats.</h1>
+    <h1>Tell me about your cats cats:</h1>
+    <label for="formField">Fill Me Out!</label>
     <form id="formField">
-        <label for="text1">What kinds of breeds do you have?</label>
-        <input type="text" id="text1">
+        <div class="formItem">
+            <label for="text1">What breeds of cat do you have?</label>
+            <input type="text" id="text1">
+        </div>
 
-        <label for="text2">How many cats do you have?</label>
-        <input type="text" id="text2">
 
-        <label for="check">Check this if you like cats</label>
-        <input type="checkbox" id="check">
-
-        <label for="description">Tell me what you love about your cats:</label>
-        <textarea id="description"></textarea>
+        <div class="formItem">
+            <label for="text2">How many cats do you have?</label>
+            <input type="text" id="text2">
+        </div class="formItem">
 
         <div>
+            <label for="check">Check this if you want more cats</label>
+            <input type="checkbox" id="check">
+        </div>
+
+        <div class="formItem">
+            <label for="description">Tell me what you love about your cats:</label><br>
+            <textarea id="description"></textarea>
+        </div>
+
+
+        <div class="formItem">
             <p>Where do you think people should adopt from? (Choose one)</p>
 
             <div> 
@@ -68,6 +79,7 @@ On this page, you must include
 
         </div>
 
+        <button type="button"> Celebrate Cats! </button>
     </form>
 
 
